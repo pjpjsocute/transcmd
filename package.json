@@ -1,0 +1,28 @@
+{
+  "name": "transcmd",
+  "version": "2.2.0",
+  "description": "支持快速翻译和代码变量命名转换的 Alfred Workflow",
+  "main": "src/workflow.js",
+  "scripts": {
+    "test": "node test/run.js",
+    "build": "./scripts/build.sh"
+  },
+  "author": "pjpjsocute",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pjpjsocute/transcmd.git"
+  },
+  "homepage": "https://github.com/pjpjsocute/transcmd",
+  "bugs": {
+    "url": "https://github.com/pjpjsocute/transcmd/issues"
+  },
+  "keywords": [
+    "alfred",
+    "translation",
+    "variable-naming"
+  ],
+  "engines": {
+    "node": ">=12"
+  }
+}
